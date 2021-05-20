@@ -1,0 +1,40 @@
+td {
+    .inputName,
+    .selectName {
+        &:disabled {
+            height: 30px;
+            line-height: 30px;
+            border: none;
+            background: none;
+            color: black;
+            width: auto;
+            appearance: none;
+        }
+    }
+    // .inputName {
+    //     width: 100%;
+    // }
+    // &:focus {
+    //     outline: 0;
+    // }
+    // .selectName {
+    //     &:focus {
+    //         appearance: menulist-button;
+    //         border: 1.5px solid #b9d5ff;
+    //         border-radius: 5px;
+    //         box-shadow: 0, 0, 10px, 10px;
+    //     }
+    // }
+}
+
+.save {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background: #1daafc;
+    color: white;
+    &:hover {
+        background-color: blue
+    }
+}

@@ -1,0 +1,23 @@
+td .inputName:disabled,
+td .selectName:disabled {
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  background: none;
+  color: black;
+  width: auto;
+  appearance: none; }
+td .inputName {
+  width: 100%; }
+
+.save {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  background: #1daafc;
+  color: white; }
+  .save:hover {
+    background-color: blue; }
+
+/*# sourceMappingURL=tabledit.css.map */

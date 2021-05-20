@@ -1,0 +1,6 @@
+input {
+  border-bottom: 2px solid blue; }
+  input :focus {
+    outline: 0; }
+
+/*# sourceMappingURL=input.css.map */
